@@ -1,0 +1,31 @@
+Create folders:
+Backend
+Frontend
+
+create virtualenv for django environment setup
+install django and rest packages
+
+----    pip install django django_rest_framework
+
+----    django-admin startproject projectnanme (to create project)
+
+----    python manage.py runserver to (run the server)
+
+----    python manage.py startapp appname (to create app name)
+
+
+in Settings.py
+
+add the appname and rest_framework under INSTALLED_APPS list
+
+
+create the model
+create the folder called api under Model name
+
+under api package,
+create 3 files 
+1)serializers
+2)urls
+3)views
+
+
